@@ -62,10 +62,7 @@ const createTeam = () => {
                 default:       
                 writeFile()
         }
-
     })
-
-
 }
 
 const createEngineer = () => {
@@ -101,6 +98,21 @@ const createEngineer = () => {
 const createIntern = () => {
     return inquirer.prompt([{
         type: "input",
+        name: "name",
+        message: "What is your name?",
+    },
+    {
+        type: "input",
+        name: "id",
+        message: "What is your employee id?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email?"
+    },
+    {
+        type: "input",
         name: "school",
         message: "What school are you attending?"
     }]).then((userInput) => {
@@ -122,11 +134,11 @@ const writeFile = () =>{
 createManager();
 
 
-
-
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
 // generate and return a block of HTML including templated divs for each employee!
+
+
 
 // After you have your html, you're now ready to create an HTML file using the HTML
 // returned from the `render` function. Now write it to a file named `team.html` in the
