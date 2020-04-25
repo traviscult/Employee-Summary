@@ -92,7 +92,6 @@ const createEngineer = () => {
         console.log(teamMembers)
     })
 
-    createTeam()
 }
 
 const createIntern = () => {
