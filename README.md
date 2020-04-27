@@ -1,5 +1,5 @@
 # Team Profile Generator 
-I created an in line command application that gathers user input via inquirer. Based on the users input an HTML roster is created with each team members pertinent information.
+I created an in line command application that gathers user input via inquirer, based on the users input an HTML roster is created with each team members pertinent information.
 
 
 ## User Story
