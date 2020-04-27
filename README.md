@@ -11,4 +11,4 @@ so that I have quick access to emails and GitHub profiles
 
 ## Demo
 
-![Read me demo](filepath"Team Generator Demo Gif")
+![Read me demo](https://github.com/traviscult/Employee-Summary/blob/master/Assets/Team_Profile_Generator_Demo.gif "Team Generator Demo Gif")
